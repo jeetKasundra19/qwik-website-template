@@ -6,7 +6,7 @@ export default component$(() => {
     <>
       <h1>Hi 👋</h1>
       <div>
-        Can't wait to see what you build with qwik!
+        i am jeet
         <br />
         Happy coding.
       </div>
