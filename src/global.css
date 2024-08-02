@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Urbanist", sans-serif;
+  font-weight: 400;
+}
+
+:root {
+  --green-70: 77 73% 70%;
+  --green-75: 77 73% 75%;
+  --green-80: 77 73% 80%;
+  --green-85: 77 74% 85%;
+  --green-90: 76 73% 90%;
+  --green-95: 77 69% 95%;
+  --green-97: 76 73% 97%;
+  --green-99: 80 60% 99%;
+  --grey-10: 0 0% 10%;
+  --grey-15: 0 0% 15%;
+  --grey-20: 0 0% 20%;
+  --grey-30: 240 1% 30%;
+  --grey-35: 240 1% 35%;
+  --grey-40: 240 1% 40%;
+  --grey-60: 240 1% 60%;
+  --grey-90: 0 0% 90%;
+  --grey-95: 0 0% 95%;
+  --grey-97: 0 0% 97%;
+  --grey-99: 0 0% 99%;
+  --dark-green-15: 159 31% 15%;
+  --dark-green-20: 159 31% 20%;
+  --dark-green-25: 159 31% 25%;
+  --dark-green-30: 160 32% 30%;
+  --dark-green-40: 160 31% 40%;
+  --dark-green-60: 160 31% 60%;
+  --dark-green-80: 159 31% 80%;
+  --dark-green-90: 161 31% 90%;
+}
+
+body {
+  @apply bg-green97;
+}
+
+.container-regular {
+  @apply w-full px-4 lg:max-w-7xl 2xl:max-w-[1596px] mx-auto;
+}
+
+.section--title {
+  @apply font-bold text-5xl text-grey15;
+}
+
+.section--sub-title {
+  @apply text-lg font-medium text-grey20;
+}

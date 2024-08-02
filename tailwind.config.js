@@ -1,0 +1,38 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
+  theme: {
+    extend: {
+      colors: {
+        green70: "hsl(var(--green-70) / <alpha-value>)",
+        green75: "hsl(var(--green-75) / <alpha-value>)",
+        green80: "hsl(var(--green-80) / <alpha-value>)",
+        green85: "hsl(var(--green-85) / <alpha-value>)",
+        green90: "hsl(var(--green-90) / <alpha-value>)",
+        green95: "hsl(var(--green-95) / <alpha-value>)",
+        green97: "hsl(var(--green-97) / <alpha-value>)",
+        green99: "hsl(var(--green-99) / <alpha-value>)",
+        grey10: "hsl(var(--grey-10) / <alpha-value>)",
+        grey15: "hsl(var(--grey-15) / <alpha-value>)",
+        grey20: "hsl(var(--grey-20) / <alpha-value>)",
+        grey30: "hsl(var(--grey-30) / <alpha-value>)",
+        grey35: "hsl(var(--grey-35) / <alpha-value>)",
+        grey40: "hsl(var(--grey-40) / <alpha-value>)",
+        grey60: "hsl(var(--grey-60) / <alpha-value>)",
+        grey90: "hsl(var(--grey-90) / <alpha-value>)",
+        grey95: "hsl(var(--grey-95) / <alpha-value>)",
+        grey97: "hsl(var(--grey-97) / <alpha-value>)",
+        grey99: "hsl(var(--grey-99) / <alpha-value>)",
+        darkGreen15: "hsl(var(--dark-green-15) / <alpha-value>)",
+        darkGreen20: "hsl(var(--dark-green-20) / <alpha-value>)",
+        darkGreen25: "hsl(var(--dark-green-25) / <alpha-value>)",
+        darkGreen30: "hsl(var(--dark-green-30) / <alpha-value>)",
+        darkGreen40: "hsl(var(--dark-green-40) / <alpha-value>)",
+        darkGreen60: "hsl(var(--dark-green-60) / <alpha-value>)",
+        darkGreen80: "hsl(var(--dark-green-80) / <alpha-value>)",
+        darkGreen90: "hsl(var(--dark-green-90) / <alpha-value>)",
+      },
+    },
+  },
+  plugins: [],
+};
