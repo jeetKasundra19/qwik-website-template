@@ -20,7 +20,7 @@ export default component$(
           additionalClass,
         ].join(" ")}
       >
-        <div class="space-y-2.5 text-center">
+        <div class="space-y-2.5 text-center lg:max-w-3xl 2xl:max-w-5xl mx-auto">
           <h2 class="section--title">{heading.title}</h2>
           <p class="section--sub-title">{heading.sub_title}</p>
         </div>

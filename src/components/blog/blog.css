@@ -1,0 +1,23 @@
+.blog--box {
+  @apply space-y-5 lg:space-y-10  p-6 lg:p-8 2xl:p-10 rounded-lg border border-green90 bg-green95;
+}
+
+.blog--box .image-wrapper {
+  @apply relative rounded-lg h-52 lg:h-56 2xl:h-[428px] overflow-hidden;
+}
+
+.blog--box .image-wrapper img {
+  @apply block h-auto w-full;
+}
+
+.blog--box .blog--title {
+  @apply text-xl font-semibold text-grey15 lg:text-2xl 2xl:text-3xl;
+}
+
+.blog--box .blog--description {
+  @apply text-grey30 text-sm lg:text-base 2xl:text-lg font-semibold;
+}
+
+.blog--box .blog--author {
+  @apply bg-green97 border border-green90 p-4 2xl:p-5 flex flex-col gap-5 rounded-xl;
+}

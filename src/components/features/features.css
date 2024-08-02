@@ -1,0 +1,15 @@
+.box {
+  @apply border border-solid  border-green85 p-7 lg:p-10 2xl:p-12 bg-green95 rounded-xl space-y-4 lg:space-y-5 2xl:space-y-6;
+}
+
+.icon-box {
+  @apply 2xl:min-w-16 2xl:min-h-16 2xl:max-w-16 2xl:max-h-16 min-w-12 min-h-12 max-w-12 max-h-12 flex items-center justify-center lg:min-w-14 lg:min-h-14 lg:max-h-14 lg:max-w-14 bg-green70 rounded-xl;
+}
+
+.box-title {
+  @apply text-lg font-semibold lg:text-xl 2xl:text-2xl text-grey15;
+}
+
+.box-description {
+  @apply text-sm lg:text-base 2xl:text-lg text-grey20 font-medium;
+}
