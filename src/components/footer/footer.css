@@ -1,0 +1,19 @@
+.footer {
+  @apply bg-darkGreen15  py-7 lg:py-10;
+}
+
+.container-regular {
+  @apply lg:space-y-10 space-y-7 2xl:py-12 2xl:space-y-12;
+}
+
+.copy-right-text {
+  @apply text-grey95 text-sm 2xl:text-lg w-full text-end;
+}
+
+.footer-link-btn {
+  @apply w-full border border-solid border-darkGreen25 text-white flex items-center gap-1.5 py-3 px-4 2xl:py-3.5 rounded-xl justify-center lg:w-fit;
+}
+
+.footer-link {
+  @apply text-white font-semibold  text-sm 2xl:text-lg;
+}
