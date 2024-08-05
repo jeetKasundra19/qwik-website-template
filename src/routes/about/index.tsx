@@ -1,5 +1,5 @@
 import { component$ } from "@builder.io/qwik";
-import { Section, FeaturesBox } from "~/components";
+import { Section, FeaturesBox, DemoBox } from "~/components";
 import StoryBox from "./components/StoryBox";
 import Image1 from "/images/inspiring-transformations-story.png";
 import Image2 from "/images/recognition-and-accolades-story.png";
@@ -153,6 +153,9 @@ export default component$(() => {
           ))}
         </div>
       </Section>
+      <section class="container-regular py-12 lg:py-24 2xl:py-36">
+        <DemoBox />
+      </section>
     </main>
   );
 });

@@ -54,3 +54,7 @@ body {
 .section--sub-title {
   @apply text-lg font-medium text-grey20;
 }
+
+.step-count{
+  @apply text-darkGreen40 font-bold text-[150px] -mb-20 -z-10 relative
+}

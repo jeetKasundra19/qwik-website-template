@@ -1,0 +1,23 @@
+.demo--box {
+  @apply w-full bg-green95 border border-green85 p-20 flex items-center justify-between gap-4 relative overflow-hidden;
+}
+
+.demo--box .title {
+  @apply text-grey15 font-semibold text-3xl capitalize;
+}
+
+.demo--box .sub-title {
+  @apply text-lg font-medium text-grey20;
+}
+
+.demo--box button {
+  @apply bg-green70 rounded-lg text-grey15 font-semibold text-lg py-4 px-6;
+}
+
+.demo--box .image-1 {
+  @apply absolute -bottom-12 -right-12;
+}
+
+.demo--box .image-2 {
+  @apply absolute -top-6 -left-6;
+}

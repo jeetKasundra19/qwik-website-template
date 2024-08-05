@@ -1,7 +1,5 @@
 import { component$ } from "@builder.io/qwik";
-import { describe } from "node:test";
-import { title } from "process";
-import { Section, FeaturesBox } from "~/components";
+import { Section, FeaturesBox, DemoBox } from "~/components";
 
 const stepComponent = {
   space_y: "50px",
@@ -77,11 +75,20 @@ export default component$(() => {
         <div class="w-full">
           <div class="grid grid-cols-2 gap-5 2xl:gap-7">
             {stepList.map((step, i) => (
-              <FeaturesBox key={i} data={step} />
+              <div key={i}>
+                <p class="step-count">
+                  {i != 9 ? 0 : null}
+                  {i + 1}
+                </p>
+                <FeaturesBox data={step} />
+              </div>
             ))}
           </div>
         </div>
       </Section>
+      <section class="container-regular py-12 lg:py-24 2xl:py-36">
+        <DemoBox />
+      </section>
     </main>
   );
 });
