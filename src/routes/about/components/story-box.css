@@ -1,0 +1,32 @@
+.story-grid {
+  @apply grid grid-cols-2 w-full;
+}
+
+.story-grid:nth-child(odd) .story-image-wrapper {
+  @apply order-last;
+}
+
+.story-grid:nth-child(odd) .story-content {
+  @apply text-right  items-end;
+}
+
+.story-image-wrapper {
+  @apply w-full relative pt-[460px];
+}
+
+.story-image-wrapper image,
+.story-image-wrapper img {
+  @apply absolute inset-0 w-full h-full;
+}
+
+.story-content {
+  @apply bg-green95 flex items-start justify-center flex-col px-20 gap-10;
+}
+
+.story-content .story-title {
+  @apply text-2xl font-semibold text-darkGreen15 capitalize border-b-4 pb-1.5 border-green70;
+}
+
+.story-content .story-description {
+  @apply text-base font-medium text-grey20;
+}
