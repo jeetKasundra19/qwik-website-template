@@ -1,0 +1,27 @@
+.blog-box {
+  @apply bg-[#F6FBE9] w-full;
+}
+
+.blog-content {
+  @apply w-full px-12 py-7 flex items-center gap-6;
+}
+
+.blog-content h3 {
+  @apply text-[#262626] font-semibold text-2xl;
+}
+
+.blog-content p {
+  @apply text-[#333333] text-lg font-medium;
+}
+
+.blog-content button {
+  @apply text-[#262626] font-semibold text-lg py-4 px-6 rounded-lg bg-[#CBEA7B] text-nowrap;
+}
+
+.blog-head-wrapper {
+  @apply w-full border-b border-solid border-[#E5F5BD] px-12 pt-7;
+}
+
+.blog-head-wrapper h6 {
+  @apply font-semibold text-[#333333] text-2xl py-2 border-b-2 border-solid border-[#CBEA7B] w-fit;
+}
