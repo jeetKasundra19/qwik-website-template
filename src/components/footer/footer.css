@@ -17,3 +17,8 @@
 .footer-link {
   @apply text-white font-semibold  text-sm 2xl:text-lg;
 }
+
+
+.footer  .top-btn{
+@apply min-w-16 min-h-16 max-w-16 max-h-16 rounded-full flex items-center justify-center bg-darkGreen20
+}
