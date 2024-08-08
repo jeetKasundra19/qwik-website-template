@@ -11,7 +11,7 @@ const footerLink = [
   },
   {
     link: "About",
-    path: "/",
+    path: "/about",
   },
   {
     link: "Team",
@@ -19,19 +19,19 @@ const footerLink = [
   },
   {
     link: "Process",
-    path: "/",
+    path: "/process",
   },
   {
     link: "Pricing",
-    path: "/",
+    path: "/pricing",
   },
   {
     link: "Blog",
-    path: "/",
+    path: "/blog",
   },
   {
     link: "Contact",
-    path: "/",
+    path: "/contact",
   },
 ];
 

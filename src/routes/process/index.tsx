@@ -1,5 +1,5 @@
 import { component$ } from "@builder.io/qwik";
-import { Section, FeaturesBox, DemoBox } from "~/components";
+import { Section, FeaturesBox, DemoBox, Hero } from "~/components";
 
 const stepComponent = {
   space_y: "50px",
@@ -68,6 +68,9 @@ const stepList = [
 export default component$(() => {
   return (
     <main>
+      <section class="container-regular">
+        <Hero />
+      </section>
       <Section
         class="container-regular py-12 lg:py-24 2xl:py-36"
         data={stepComponent}

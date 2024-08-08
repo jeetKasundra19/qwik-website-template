@@ -1,0 +1,20 @@
+.hero--section {
+  @apply w-full flex flex-col items-center gap-20 justify-center border border-solid border-green85 bg-green95 p-24 relative;
+}
+
+.hero--section .hero-title {
+  @apply font-semibold text-5xl text-grey15;
+}
+
+.hero--section .hero-description {
+  @apply text-grey20 font-medium text-lg;
+}
+
+.hero--section .hero--icon-box {
+  @apply min-w-[90px] min-h-[90px] max-w-[90px] max-h-[90px] flex items-center justify-center rounded-xl border-[6px] border-solid border-white bg-green70 bg-opacity-60;
+}
+
+.hero--section::after {
+  background-image: url("/images/grid-pattern.svg");
+  @apply absolute left-1/2 -translate-x-1/2 top-0 bg-cover w-full h-full;
+}
