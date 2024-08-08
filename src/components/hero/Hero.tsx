@@ -1,7 +1,12 @@
 import { component$, useStyles$ } from "@builder.io/qwik";
 import styles from "./hero.css?inline";
 
-export default component$(() => {
+interface HeroProps {
+  title: string;
+  description: string;
+}
+
+export default component$<HeroProps>(({ title, description }) => {
   useStyles$(styles);
   return (
     <section class="hero--section">
@@ -34,15 +39,8 @@ export default component$(() => {
         </div>
       </div>
       <div class="space-y-5 text-center">
-        <h1 class="hero-title">Your Journey to Health and Wellness</h1>
-        <p class="hero-description">
-          At Nutritionist, we believe in providing a personalized and
-          comprehensive approach to help you achieve your health and wellness
-          goals. Our "How it Works" process is designed to guide you through
-          each step of your journey, ensuring that you receive the support,
-          knowledge, and tools you need to succeed. Here's a detailed breakdown
-          of our process:
-        </p>
+        <h1 class="hero-title">{title}</h1>
+        <p class="hero-description">{description}</p>
       </div>
     </section>
   );

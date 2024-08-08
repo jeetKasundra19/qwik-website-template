@@ -1,0 +1,3 @@
+.member--image-wrapper {
+  @apply w-full relative block pt-[110%]  rounded-2xl;
+}

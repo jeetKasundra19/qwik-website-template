@@ -65,11 +65,17 @@ const stepList = [
   },
 ];
 
+const heroContent = {
+  title: "Your Journey to Health and Wellness",
+  description:
+    "At Nutritionist, we believe in providing a personalized and comprehensive approach to help you achieve your health and wellness goals. Our 'How it Works' process is designed to guide you through each step of your journey, ensuring that you receive the support, knowledge, and tools you need to succeed. Here's a detailed breakdown of our process:",
+};
+
 export default component$(() => {
   return (
     <main>
       <section class="container-regular">
-        <Hero />
+        <Hero {...heroContent} />
       </section>
       <Section
         class="container-regular py-12 lg:py-24 2xl:py-36"
