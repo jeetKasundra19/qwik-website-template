@@ -7,16 +7,19 @@ interface BlogBoxProps {
   title: string;
   description: string;
   category: string;
+  alt: string;
 }
 
 const BlogBox = component$<BlogBoxProps>(
-  ({ image, title, description, category }) => {
+  ({ image, title, description, category, alt }) => {
     useStyles$(styles);
     return (
       <div class="blog-box">
         <div class="blog-head-wrapper">
           <h6>{category}</h6>
-          <Image src={image} alt={title} width={400} height={300} />
+          <div class="image-wrapper">
+            <Image src={image} alt={alt} width="531" height="228" />
+          </div>
         </div>
         <div class="blog-content">
           <div class="space-y-2.5">

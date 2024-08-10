@@ -18,8 +18,17 @@
   @apply text-[#262626] font-semibold text-lg py-4 px-6 rounded-lg bg-[#CBEA7B] text-nowrap;
 }
 
+.blog-head-wrapper .image-wrapper{
+@apply w-full relative max-w-[80%] ml-auto
+}
+
+.blog-head-wrapper .image-wrapper img,
+.blog-head-wrapper .image-wrapper image{
+  @apply w-full h-full
+}
+
 .blog-head-wrapper {
-  @apply w-full border-b border-solid border-[#E5F5BD] px-12 pt-7;
+  @apply w-full border-b border-solid border-[#E5F5BD] px-12 pt-7 space-y-12;
 }
 
 .blog-head-wrapper h6 {
