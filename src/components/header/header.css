@@ -1,0 +1,27 @@
+.header {
+  @apply bg-darkGreen15 divide-y divide-darkGreen20;
+}
+
+.head--line {
+  @apply bg-darkGreen20 border border-darkGreen25 w-full flex items-center justify-center relative py-2;
+}
+
+.head--line p {
+  @apply font-medium text-white text-lg;
+}
+
+.nav--bar {
+  @apply flex items-center justify-between w-full py-5;
+}
+
+.nav-link--list {
+  @apply flex items-center gap-6;
+}
+
+.nav-link--list a {
+  @apply font-semibold text-lg text-green97;
+}
+
+.nav-btn {
+  @apply font-semibold text-lg text-grey15 bg-green70 py-3.5 px-6 rounded-md;
+}
