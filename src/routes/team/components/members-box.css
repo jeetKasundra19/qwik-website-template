@@ -1,3 +1,20 @@
 .member--image-wrapper {
-  @apply w-full relative block pt-[110%]  rounded-2xl;
+  @apply w-full relative block pt-[110%] overflow-hidden  rounded-2xl;
+}
+
+.member--image-wrapper img,
+.member--image-wrapper image {
+  @apply absolute inset-0 w-full h-full bg-cover;
+}
+
+.member-details {
+  @apply bg-green95 p-7 rounded-tr-2xl space-y-0.5 -mt-14 z-40 relative max-w-[80%];
+}
+
+.member-details h5 {
+  @apply font-semibold text-2xl text-grey15;
+}
+
+.member-details p {
+  @apply font-medium text-lg text-grey30;
 }
